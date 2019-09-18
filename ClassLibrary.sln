@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibrary", "ClassLibrar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketLibrary", "TicketLibrary\TicketLibrary.csproj", "{68909508-DED3-4A38-9B75-4A063E0D27AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketLibararyTest", "TicketLibararyTest\TicketLibararyTest.csproj", "{8A4FE916-2AC2-4898-9A3F-F0B331580099}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{68909508-DED3-4A38-9B75-4A063E0D27AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68909508-DED3-4A38-9B75-4A063E0D27AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68909508-DED3-4A38-9B75-4A063E0D27AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A4FE916-2AC2-4898-9A3F-F0B331580099}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A4FE916-2AC2-4898-9A3F-F0B331580099}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A4FE916-2AC2-4898-9A3F-F0B331580099}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A4FE916-2AC2-4898-9A3F-F0B331580099}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
