@@ -1,9 +1,8 @@
 ﻿using System;
 
-namespace ClassLibrary
+namespace TicketLibrary
 {
     public class Class1
     {
-
     }
 }
