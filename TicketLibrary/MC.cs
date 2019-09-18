@@ -4,18 +4,20 @@ using System.Text;
 
 namespace TicketLibrary
 {
-    public class MC
+    public class MC : Car
     {
-        public string LicensePlate { get; set; }
-        public DateTime date { get; set; }
+       
 
-        
-        public double Price()
+        /// <summary>
+        /// class values with ovverided methods
+        /// </summary>
+        /// <returns></returns>
+        public override double Price()
         {
             return 125;
         }
         
-        public string Vehicle()
+        public override string VehicleType()
         {
             return "MC";
         }

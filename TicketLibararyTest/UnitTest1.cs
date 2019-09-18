@@ -53,7 +53,7 @@ namespace TicketLibararyTest
             //add
             TicketLibrary.MC mc = new TicketLibrary.MC();
             //act
-            string actualName = mc.Vehicle();
+            string actualName = mc.VehicleType();
             //assert 
             Assert.AreEqual("MC",actualName);
         }

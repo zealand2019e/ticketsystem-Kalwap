@@ -3,28 +3,44 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace TicketLibrary
-{
-    public class Car
+{/// <summary>
+/// Abstract class givin access for another classes
+/// </summary>
+    public abstract class Car
     {
         /// <summary>
         /// Car class attribiutes
         /// </summary>
-        public string LicensePlate { get; set; }
+
+        private string LicensePlate;
+
+
+        public string licensePlate
+        {
+            
+            
+        }
         public DateTime Date { get; set; }
+
+
         
         /// <summary>
-        /// Car class methods contains fixed values
+        /// abstract class methods ready to use for another classes with other values
         /// </summary>
         /// <returns></returns>
-        public double Price()
-        {
-            return 240;
-        }
+        public abstract double Price();
+
+
+
+
+
+        public abstract string VehicleType();
         
-        public string VehicleType()
-        {
-            return "Car";
-        }
+            
+        
+            
+        
+        
 
         
         
