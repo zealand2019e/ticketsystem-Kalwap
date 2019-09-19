@@ -9,22 +9,29 @@ namespace TicketLibrary
     public abstract class Car
     {
         /// <summary>
-        /// Car class attribiutes/var
+        /// Car class attribiutes
         /// </summary>
 
-        private string LicensePlate;
-        
-        public bool BroBizz;
-        public bool broBizz
+        private string licensePlate;
+        public bool broBizz;
+
+        /// <summary>
+        /// alaways is good to make a class that include
+        /// attribiutes and properties of it if its needed
+        /// always the class need constructor for creating an item inside the class
+        /// from the attribiutes that You have made
+        /// </summary>
+
+        public bool BroBizz
         {
             get { return BroBizz; }
             set { BroBizz = value; }
         }
        
 
-        public string licensePlate
+        public string LicensePlate
         {
-            get { return LicensePlate; }
+            get { return licensePlate; }
 
             set
             {
@@ -32,7 +39,7 @@ namespace TicketLibrary
                     throw new ArgumentException("sorry but your platenumber is incorrect");
                 else
                 {
-                    LicensePlate = value;
+                    licensePlate = value;
                 }
             }
               
