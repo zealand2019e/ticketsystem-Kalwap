@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TicketLibrary
 {
-    public class MC : Car
+    public class MC : Car 
     {
        
 
