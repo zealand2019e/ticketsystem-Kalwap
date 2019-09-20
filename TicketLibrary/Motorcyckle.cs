@@ -4,21 +4,19 @@ using System.Text;
 
 namespace TicketLibrary
 {
-    public  class Motorcyckle : Car
+    public class Motorcyckle : Vehicle
     {
-        public override double Price()
+        /// <summary>
+        /// Constructor from MOtorcyckle creates an object inherit from vehicle
+        /// </summary>
+        /// <param ></param>
+        /// <param ></param>
+        public Motorcyckle(string licensePlate, bool broBizzDiscount = false) : base(licensePlate,broBizzDiscount)
         {
-            return 100;
-
+            LicensePlate = licensePlate;
+            BroBizz = broBizzDiscount;
+            Price = 100;
             
         }
-
-        public override string VehicleType()
-        {
-            return "MotorCykler";
-        }
-
-
-
     }
 }

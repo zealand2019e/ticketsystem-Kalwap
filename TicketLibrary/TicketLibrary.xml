@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TicketLibrary</name>
+    </assembly>
+    <members>
+        <member name="M:TicketLibrary.Car.#ctor(System.String,System.Boolean)">
+            <summary>
+            constructor from Car inherit Vehicle
+            </summary>
+            <param name="licensePlate"></param>
+            <param name="broBizzDiscount"></param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:TicketLibrary.MC.#ctor(System.String,System.Boolean)" -->
+        <member name="M:TicketLibrary.Motorcyckle.#ctor(System.String,System.Boolean)">
+            <summary>
+            Constructor from MOtorcyckle creates an object inherit from vehicle
+            </summary>
+            <param ></param>
+            <param ></param>
+        </member>
+        <member name="P:TicketLibrary.Vehicle.BroBizz">
+            <summary>
+            alaways is good to make a class that include
+            attribiutes and properties of it if its needed
+            always the class need constructor for creating an item inside the class
+            from the attribiutes that You have made
+            </summary>
+        </member>
+        <member name="P:TicketLibrary.Vehicle.LicensePlate">
+            <summary>
+            ALL THE PROPERTIES
+            </summary>
+        </member>
+    </members>
+</doc>

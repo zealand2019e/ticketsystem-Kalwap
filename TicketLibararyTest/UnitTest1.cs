@@ -1,5 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using TicketLibrary;
 
 
 namespace TicketLibararyTest
@@ -11,52 +12,29 @@ namespace TicketLibararyTest
         /// Testing all the methods inside the specific classess
         /// </summary>
         [TestMethod]
-        public void TestLicencePlate()
+        public void TestPriceCar()
         {
-            //Add
-            TicketLibrary.Car car = new TicketLibrary.Car();
-            //Act
-            double actualPrice = car.Price();
-            //Assert
-            Assert.AreEqual(240, actualPrice);
+            //Arrange
+            double expectedResult = 240;
+
+            // Act
+            Car car = new Car("");
+
+
+            //Asser
+            Assert.AreEqual(expectedResult, car.Price);
         }
 
         [TestMethod]
+
         public void TestVehicleType()
         {
-            //add
-            TicketLibrary.Car car = new TicketLibrary.Car();
+            Car car = new Car("");
 
-            //act
-            string actualType = car.VehicleType();
-            //assert
-            Assert.AreEqual("Car", actualType);
-        }
+            string actualtype = car.licensePlate;
 
-        [TestMethod]
-
-        public void TestPriceMC()
-        {
-            //add 
-            TicketLibrary.MC mc = new TicketLibrary.MC();
-            //act
-            double actualPrice = mc.Price();
-            //asssert
-            Assert.AreEqual(125, actualPrice);
+            Assert.AreEqual("Car", actualtype);
 
         }
-
-        [TestMethod]
-
-        public void TestTypeMC()
-        {
-            //add
-            TicketLibrary.MC mc = new TicketLibrary.MC();
-            //act
-            string actualName = mc.VehicleType();
-            //assert 
-            Assert.AreEqual("MC",actualName);
-        }
-
     }
 }
